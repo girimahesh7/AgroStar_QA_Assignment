@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3273" started-at="2019-08-05T18:28:55Z" finished-at="2019-08-05T18:28:59Z">
+  <suite name="Default suite" duration-ms="3206" started-at="2019-08-05T18:34:33Z" finished-at="2019-08-05T18:34:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3273" started-at="2019-08-05T18:28:55Z" finished-at="2019-08-05T18:28:59Z">
+    <test name="Default test" duration-ms="3206" started-at="2019-08-05T18:34:33Z" finished-at="2019-08-05T18:34:36Z">
       <class name="com.agrostar.tests.GitHub_APITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="8" started-at="2019-08-05T23:58:55Z" finished-at="2019-08-05T23:58:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="7" started-at="2019-08-06T00:04:33Z" finished-at="2019-08-06T00:04:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="createRepository" duration-ms="2156" started-at="2019-08-05T23:58:55Z" finished-at="2019-08-05T23:58:57Z">
+        <test-method status="PASS" signature="createRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="createRepository" duration-ms="1903" started-at="2019-08-06T00:04:33Z" finished-at="2019-08-06T00:04:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createRepository -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-05T23:58:57Z" finished-at="2019-08-05T23:58:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-06T00:04:34Z" finished-at="2019-08-06T00:04:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="verifyRepository" duration-ms="208" started-at="2019-08-05T23:58:57Z" finished-at="2019-08-05T23:58:58Z">
+        <test-method status="PASS" signature="verifyRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="verifyRepository" duration-ms="193" started-at="2019-08-06T00:04:34Z" finished-at="2019-08-06T00:04:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRepository -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-05T23:58:58Z" finished-at="2019-08-05T23:58:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-06T00:04:35Z" finished-at="2019-08-06T00:04:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="markStarRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="markStarRepository" duration-ms="373" started-at="2019-08-05T23:58:58Z" finished-at="2019-08-05T23:58:58Z">
+        <test-method status="PASS" signature="markStarRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="markStarRepository" duration-ms="404" started-at="2019-08-06T00:04:35Z" finished-at="2019-08-06T00:04:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- markStarRepository -->
-        <test-method status="PASS" signature="verifyStarRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="verifyStarRepository" duration-ms="225" started-at="2019-08-05T23:58:58Z" finished-at="2019-08-05T23:58:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-06T00:04:35Z" finished-at="2019-08-06T00:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyStarRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="verifyStarRepository" duration-ms="239" started-at="2019-08-06T00:04:35Z" finished-at="2019-08-06T00:04:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStarRepository -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-05T23:58:58Z" finished-at="2019-08-05T23:58:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-06T00:04:35Z" finished-at="2019-08-06T00:04:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="setUp" is-config="true" duration-ms="2" started-at="2019-08-05T23:58:58Z" finished-at="2019-08-05T23:58:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="deleteRepository" duration-ms="280" started-at="2019-08-05T23:58:58Z" finished-at="2019-08-05T23:58:59Z">
+        <test-method status="PASS" signature="deleteRepository()[pri:0, instance:com.agrostar.tests.GitHub_APITest@1c53fd30]" name="deleteRepository" duration-ms="408" started-at="2019-08-06T00:04:35Z" finished-at="2019-08-06T00:04:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteRepository -->
