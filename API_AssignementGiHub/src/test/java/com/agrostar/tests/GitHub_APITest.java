@@ -29,6 +29,8 @@ public class GitHub_APITest extends GitHub_Base {
 	RestOperation restClient;
 	CloseableHttpResponse closebaleHttpResponse;
 
+	
+	
 	@BeforeMethod
 	public void setUp() throws ClientProtocolException, IOException {
 		testBase = new GitHub_Base();
@@ -40,7 +42,11 @@ public class GitHub_APITest extends GitHub_Base {
 		desc = prop.getProperty("REPO_DESC");
 		deleteRepo=prop.getProperty("DELETE_REPO");
 	}
-
+   //TODO: Access Token is required to call github api
+	//Access Token is getting deleted when code is pushed to github repository, 
+   //need to create fresh new access token to successfully execution of all GitHub Request. 
+  //Please contact me for new Access token -Mob: 7276834750
+	
 	@Test(priority = 0, enabled = true)
 	public void createRepository() throws IOException {
 		restClient = new RestOperation();
