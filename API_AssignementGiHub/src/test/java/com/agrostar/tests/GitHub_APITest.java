@@ -1,4 +1,4 @@
-package com.qa.tests;
+package com.agrostar.tests;
 
 import java.io.IOException;
 import java.util.HashMap;
