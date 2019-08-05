@@ -40,13 +40,13 @@ public class Amazon_BaseClass {
 	public void setupBrowser(String browser) throws Exception {
 
 		if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", FrameWorkConstants.BROWSEREXE_PATH + "/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + FrameWorkConstants.BROWSEREXE_PATH + "/geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", FrameWorkConstants.BROWSEREXE_PATH + "/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + FrameWorkConstants.BROWSEREXE_PATH + "/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("ie")) {
-			System.setProperty("webdriver.ie.driver", FrameWorkConstants.BROWSEREXE_PATH + "/IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir") + FrameWorkConstants.BROWSEREXE_PATH + "/IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		} else {
 
