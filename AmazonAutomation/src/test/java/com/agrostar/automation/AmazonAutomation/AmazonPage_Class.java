@@ -158,7 +158,8 @@ public class AmazonPage_Class{
 		log.info("Adding Product To Cart");
 		driverAction.clickOnElement(productToCartBtn,"Adding Product To Cart");
 		driverAction.clickOnElement(giftCheckbox,"selecting gift Checkbox");
-		driverAction.clickOnElement(cartBtn,"View Cart Product");
+		driverAction.clickOnElement(cartLink,"View Cart Product");
+	
 			}
 	public String modifyOrder(String qauntity)
 	{    String orderModifyQty=null;

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="40860" started-at="2019-08-04T16:59:18Z" finished-at="2019-08-04T16:59:58Z">
+  <suite name="TestSuite" duration-ms="37301" started-at="2019-08-05T19:07:11Z" finished-at="2019-08-05T19:07:49Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="40860" started-at="2019-08-04T16:59:18Z" finished-at="2019-08-04T16:59:58Z">
+    <test name="ChromeTest" duration-ms="37301" started-at="2019-08-05T19:07:11Z" finished-at="2019-08-05T19:07:49Z">
       <class name="com.agrostar.automation.AmazonAutomation.AmazonTest_Class">
-        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.agrostar.automation.AmazonAutomation.AmazonTest_Class@7006c658]" name="setupBrowser" is-config="true" duration-ms="4138" started-at="2019-08-04T22:29:18Z" finished-at="2019-08-04T22:29:22Z">
+        <test-method status="PASS" signature="setupBrowser(java.lang.String)[pri:0, instance:com.agrostar.automation.AmazonAutomation.AmazonTest_Class@7006c658]" name="setupBrowser" is-config="true" duration-ms="4096" started-at="2019-08-06T00:37:11Z" finished-at="2019-08-06T00:37:15Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="verifyFunctionalityOfAddingItemsToCart()[pri:0, instance:com.agrostar.automation.AmazonAutomation.AmazonTest_Class@7006c658]" name="verifyFunctionalityOfAddingItemsToCart" duration-ms="35829" started-at="2019-08-04T22:29:22Z" finished-at="2019-08-04T22:29:58Z">
+        <test-method status="PASS" signature="verifyFunctionalityOfAddingItemsToCart()[pri:0, instance:com.agrostar.automation.AmazonAutomation.AmazonTest_Class@7006c658]" name="verifyFunctionalityOfAddingItemsToCart" duration-ms="32269" started-at="2019-08-06T00:37:15Z" finished-at="2019-08-06T00:37:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFunctionalityOfAddingItemsToCart -->
-        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.agrostar.automation.AmazonAutomation.AmazonTest_Class@7006c658]" name="closeBrowser" is-config="true" duration-ms="878" started-at="2019-08-04T22:29:58Z" finished-at="2019-08-04T22:29:58Z">
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.agrostar.automation.AmazonAutomation.AmazonTest_Class@7006c658]" name="closeBrowser" is-config="true" duration-ms="924" started-at="2019-08-06T00:37:48Z" finished-at="2019-08-06T00:37:49Z">
           <params>
             <param index="0">
               <value>
